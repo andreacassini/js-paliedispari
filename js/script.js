@@ -1,11 +1,19 @@
 let parola = prompt('');
 console.log(parola);
 
-let parolaDivisa = parola.split('');
+/* let parolaDivisa = parola.split('');
 console.log(parolaDivisa);
 
-let parolaDivisaInvertita = parolaDivisa.reverse();
-console.log(parolaDivisaInvertita);
+parolaDivisa = parolaDivisa.reverse();
+console.log(parolaDivisa);
 
-let parolaInvertita = parolaDivisaInvertita.join();
-console.log(parolaInvertita);
+parolaDivisa = parolaDivisa.join();
+console.log(parolaDivisa); */
+
+function reverseWord(str){
+    let strReverse = str.split('').reverse('').join('');
+    return strReverse;
+}
+
+let parolaInversa = reverseWord(parola);
+console.log(parolaInversa)
