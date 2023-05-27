@@ -32,7 +32,7 @@ function checkOddEven(num){
     return "dispari";
 }
 //PERMETTO ALL'UTENTE DI SCEGLIERE PARI O DISPARI
-let choice = prompt('Inserire "pari" o "dispari');
+let choice = prompt('Inserire "pari" o "dispari"');
 
 //PERMETTO ALL'UTENTE DI INSERIRE UN NUMERO COMPRESO TRA 1 E 5
 let number = parseInt(prompt('Inserire un numero compreso tra 1 e 5'));
